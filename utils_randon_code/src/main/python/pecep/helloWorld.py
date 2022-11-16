@@ -78,7 +78,14 @@ print(sentence2.startswith('is',5))
 
 print(sentence2.endswith('test'))
 
+####################################################################
+#string using format
 
+sentence = "the sum of 5 + 1 is {0}".format(50)
+print(sentence)
+
+sentence = "the sum of {0} + {1} is {2}".format(5,1,6)
+print(sentence)
 
 
 
