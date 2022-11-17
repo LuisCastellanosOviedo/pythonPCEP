@@ -38,3 +38,7 @@ print(len(string_text))
 
 second_list = ['a','b','c']
 print(my_list+second_list)
+
+my_list = ['a','b','c',['apple','banana']]
+print(my_list[3][1])
+           
