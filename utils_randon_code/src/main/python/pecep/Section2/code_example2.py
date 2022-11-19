@@ -89,7 +89,12 @@ print(peolple_weight_dict)
 peolple_weight_dict['99'] = '99 new data'
 print(peolple_weight_dict)
            
-peolple_weight_dict = {'john':134,'mike':170,'robert':165,'items':['banana','orange',{'banana2':'banana2 value','lemon':'lemnon value'}]}
+peolple_weight_dict = {'john':134,'mike':170,'robert':165,'items':['banana','orange',{'banana2':'banana2 value','lemon':'lemnon value'}],'tuple':(11,22,33)}
 print(peolple_weight_dict['items'][1])
 print(peolple_weight_dict['items'][2]['banana2'])
 print(peolple_weight_dict['items'][2]['lemon'])
+print(peolple_weight_dict['tuple'])
+
+print(peolple_weight_dict)
+peolple_weight_dict.pop('tuple')
+print(peolple_weight_dict)
