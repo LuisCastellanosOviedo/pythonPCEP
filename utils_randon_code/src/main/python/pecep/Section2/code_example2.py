@@ -98,3 +98,14 @@ print(peolple_weight_dict['tuple'])
 print(peolple_weight_dict)
 peolple_weight_dict.pop('tuple')
 print(peolple_weight_dict)
+
+####################################################################
+#Comparison operators
+
+print(10 == 10 )
+print(10 == '10')
+print(5 != 6)
+print('hello'== 'Hello' or 5 ==5)
+print(('hello' == 'Hello') or (5 == 5) and ('8' != '8'))
+print(not False)
+print(not(5==5))
